@@ -12,3 +12,5 @@ This folder contains code relevant to a separator script constructed to deal wit
  - have randomly distributed lines that contain invalidly formatted json entities
  
  The output are two files: <input_file>_fixed and <input_file>_error_lines which contain only clean / error lines respectively.
+ 
+ **sub1** is an example file with the above properties.
