@@ -10,7 +10,7 @@ Usage master-worker-ray.py <input_filename>
 
 **master-worker.py** simply leverages multiprocessing and we were able to achieve decent performance with it.The script reads in chunks of characters and searches for strings denoting the start of a new "tweet" entity. Each worker cleans it's chunks and writes to an output file in **output** dir.
 
-Usage master-worker.py <input_filename>
+Usage: master-worker.py <input_filename>
 
 
 **combine.py** takes the **output** dir and combines it back into a single file while maintaining the ordering of the initial file.
