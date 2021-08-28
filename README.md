@@ -28,3 +28,8 @@ This folder contains code relevant to a separator script constructed to deal wit
  The output are two files: <input_file>_fixed and <input_file>_error_lines which contain only clean / error lines respectively.
  
  **separator/sub1** is an example file with the above properties.
+ 
+ ## Parsing
+Running ijson_parse.py is a lightweight parser that checks each line for correct json format. I usually check the head & tail of a file, and then run this parser for a few minutes to sufficiently check a file.
+
+Usage: ijson_parse.py <input_filename>
